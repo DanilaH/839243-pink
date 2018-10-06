@@ -1,16 +1,18 @@
 @font-face {
   font-family: "Open Sans";
+
   @import url("../fonts/opensans.woff");
   @import url("../fonts/opensans.woff2");
   @import url("../fonts/opensansbold.woff");
   @import url("../fonts/opensansbold.woff2");
   @import url("../fonts/opensansslight.woff");
   @import url("../fonts/opensansslight.woff2");
+
   font-display: fallback;
 }
 
 body {
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: "Open Sans", "Arial", sans-serif;
   font-size: 14px;
   line-height: 30px;
   font-weight: 400;
