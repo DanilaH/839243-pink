@@ -1,11 +1,11 @@
 @font-face {
-  font-family: Open Sans;
-  @import "../fonts/opensans.woff";
-  @import "../fonts/opensans.woff2";
-  @import "../fonts/opensansbold.woff";
-  @import "../fonts/opensansbold.woff2";
-  @import "../fonts/opensansslight.woff";
-  @import "../fonts/opensansslight.woff2";
+  font-family: "Open Sans";
+  @import url("../fonts/opensans.woff");
+  @import url("../fonts/opensans.woff2");
+  @import url("../fonts/opensansbold.woff");
+  @import url("../fonts/opensansbold.woff2");
+  @import url("../fonts/opensansslight.woff");
+  @import url("../fonts/opensansslight.woff2");
   font-display: fallback;
 }
 
