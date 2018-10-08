@@ -1,0 +1,58 @@
+.form__text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: rgb(210, 40, 86);
+}
+
+.form__input {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  color: rgb(40, 54, 69);
+}
+
+.form__input::placeholder {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  color: rgb(40, 54, 69);
+}
+
+.form__header {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: rgb(210, 40, 86);
+}
+
+.form__inputs {
+  background-color: rgb(242, 242, 242);
+}
+
+.form__inputs-list {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.form__inputs-label {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  color: rgb(40, 54, 69);
+}
+
+.form__required-text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+  color: rgb(40, 54, 69);
+}
+
+.form__star {
+  color: rgb(210, 40, 86);
+}

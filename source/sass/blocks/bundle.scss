@@ -1,0 +1,38 @@
+.bundle {
+  background-color: rgb(242, 242, 242);
+}
+
+.bundle__list {
+  margin: 0;
+  padding: 0;
+}
+
+.bundle__name-container {
+  background-color: rgb(40, 54, 69);
+
+  color: rgb(255, 255, 255);
+}
+
+.bundle__item {
+  background-color: rgb(255, 255, 255);
+}
+
+.bundle__name {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.bundle__cost {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.bundle__thing {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+  text-transform: uppercase;
+}
