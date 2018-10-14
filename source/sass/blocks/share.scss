@@ -46,7 +46,7 @@
   }
 }
 
-@media  (min-width: $tablet) {
+@media (min-width: $tablet) {
   .share {
     display: flex;
     flex-direction: column;
@@ -81,7 +81,7 @@
   }
 }
 
-@media  (min-width: $desktop) {
+@media (min-width: $desktop) {
   .share__wrapper {
     width: 940px;
     margin: 0 auto;
