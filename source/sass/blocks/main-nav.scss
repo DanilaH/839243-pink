@@ -1,0 +1,6 @@
+@media (min-width: $mobile) {
+  .main-nav__toggle {
+    @include button-reset;
+    width: 50px;
+  }
+}

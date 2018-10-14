@@ -13,3 +13,71 @@
   line-height: 24px;
   color: rgb(255, 255, 255);
 }
+
+@media (min-width: $mobile) {
+  .apps__wrapper {
+    width: 280px;
+    margin: 0 auto;
+
+    text-align: center;
+  }
+
+  .apps__header {
+    display: none;
+  }
+
+  .apps__button {
+    @include button-reset;
+
+    width: 280px;
+    padding: 15px 0;
+
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    color: rgb(255, 255, 255);
+
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 40px;
+  }
+
+  .apps__list {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+@media (min-width: $tablet) {
+  .apps__wrapper {
+    width: 300px;
+    margin: 0;
+  }
+
+  .apps__header {
+    display: block;
+
+    width: 200px;
+    margin: 0 auto;
+
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 49px;
+    color: rgb(255, 255, 255);
+  }
+
+  .apps__text {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: $desktop) {
+  .apps__header {
+    width: 300px;
+
+    font-size: 50px;
+  }
+
+  .apps__button {
+    font-size: 21px;
+  }
+}

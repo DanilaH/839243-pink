@@ -1,0 +1,12 @@
+$mobile: 320px;
+$tablet: 640px;
+$desktop: 1200px;
+
+@mixin button-reset {
+   padding: 0;
+   border: none;
+   font: inherit;
+   color: inherit;
+   background-color: transparent;
+   cursor: pointer;
+}

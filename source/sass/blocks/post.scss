@@ -25,3 +25,40 @@
   line-height: 24px;
   color: rgb(210, 40, 86);
 }
+
+@media (min-width: $mobile) {
+  .post {
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  .post__content {
+    width: 280px;
+    margin: 0 auto;
+    margin-top: -10px;
+    padding: 20px 16px;
+    box-sizing: border-box;
+  }
+}
+
+@media (min-width: $tablet) {
+  .post--first {
+    width: 620px;
+    margin: 0 auto;
+  }
+
+  .post__content--first {
+    width: 620px;
+  }
+}
+
+@media (min-width: $desktop) {
+  .post--first {
+    width: 1200px;
+  }
+
+  .post__content--first {
+    width: 940px;
+    margin: 0 auto;
+  }
+}
