@@ -1,12 +1,14 @@
 .description__text {
   font-size: 24px;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 30px;
 }
 
 .description__list {
   margin: 0;
   padding: 0;
+
+  list-style: none;
 
   background-color: rgb(242, 242, 242);
 }
@@ -22,4 +24,78 @@
   font-size: 14px;
   font-weight: 400;
   line-height: 30px;
+}
+
+@media (min-width: $mobile) {
+  .description {
+    text-align: center;
+  }
+
+  .description__text {
+    width: 280px;
+    margin: 0 auto;
+  }
+
+  .description__item {
+    width: 280px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: $tablet) {
+  .description__text {
+    width: 620px;
+    margin: 0 auto;
+
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 49px;
+  }
+
+  .description__wrapper {
+    background-color: rgb(242, 242, 242);
+  }
+
+  .description__text:nth-child(3) {
+    width: 350px;
+  }
+
+  .description__list {
+    width: 310px;
+    margin-left: auto;
+    margin-right: 20px;
+
+    text-align: left;
+  }
+}
+
+@media (min-width: $desktop) {
+  .description__text {
+    width: 940px;
+
+    font-size: 50px;
+    line-height: 62px;
+  }
+
+  .description__text:nth-child(3) {
+    width: 450px;
+  }
+
+  .description__list {
+    display: flex;
+
+    width: 940px;
+    margin: 0 auto;
+
+    text-align: center;
+  }
+
+  .description__item {
+    width: 290px;
+    margin: 0 auto;
+  }
+
+  .description__item-text {
+    font-size: 18px;
+  }
 }

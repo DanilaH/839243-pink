@@ -2,3 +2,15 @@
   background-color: rgba(40, 54, 69, 0.5);
   color: rgb(255, 255, 255);
 }
+
+@media (min-width: $mobile) {
+  .page-header {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+  }
+
+  .page-header__nav {
+    margin-left: auto;
+  }
+}

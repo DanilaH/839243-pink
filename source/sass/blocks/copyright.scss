@@ -1,5 +1,13 @@
-.copyright__text {
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 18px;
+@media (min-width: $mobile) {
+  .copyright__text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+  }
+}
+
+@media (min-width: $tablet) {
+  .copyright__text {
+    font-size: 18px;
+  }
 }

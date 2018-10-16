@@ -4,6 +4,92 @@
   line-height: 30px;
 }
 
-.share__buttons {
+.share__wrapper {
   background-color: rgb(242, 242, 242);
+}
+
+.share__list {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+@media (min-width: $mobile) {
+  .share {
+    margin: 0 auto;
+
+    text-align: center;
+  }
+
+  .share__list {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    margin: 0 auto;
+  }
+
+  .share__button {
+    @include button-reset;
+
+    width: 280px;
+    margin-bottom: 12px;
+    padding: 15px 0;
+
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    color: rgb(210, 40, 86);
+
+    border: 3px solid rgb(210, 40, 86);
+    border-radius: 40px;
+  }
+}
+
+@media (min-width: $tablet) {
+  .share {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .share__text {
+    font-size: 18px;
+  }
+
+  .share__wrapper {
+    width: 100%;
+  }
+
+  .share__container {
+    display: flex;
+    justify-content: space-between;
+    width: 620px;
+    margin: 0 auto;
+  }
+
+  .share__list {
+    flex-direction: column;
+    width: 300px;
+  }
+
+  .share__buttons {
+    width: 300px;
+  }
+
+  .share__button {
+    width: 260px;
+  }
+}
+
+@media (min-width: $desktop) {
+  .share__wrapper {
+    width: 940px;
+    margin: 0 auto;
+  }
+
+  .share__container {
+    display: flex;
+    width: 800px;
+    margin: 0 auto;
+  }
 }

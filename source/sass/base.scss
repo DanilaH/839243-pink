@@ -1,18 +1,29 @@
 @font-face {
-  font-family: "Open Sans";
+  font-family: "OpenSans";
+  src: url("../fonts/opensanslight.woff") format("woff"),
+    url("../fonts/opensanslight.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
 
-  @import url("../fonts/opensans.woff");
-  @import url("../fonts/opensans.woff2");
-  @import url("../fonts/opensansbold.woff");
-  @import url("../fonts/opensansbold.woff2");
-  @import url("../fonts/opensansslight.woff");
-  @import url("../fonts/opensansslight.woff2");
+@font-face {
+  font-family: "OpenSans";
+  src: url("../fonts/opensans.woff") format("woff"),
+    url("../fonts/opensans.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
 
-  font-display: fallback;
+@font-face {
+  font-family: "OpenSans";
+  src: url("../fonts/opensansbold.woff") format("woff"),
+    url("../fonts/opensansbold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
 }
 
 body {
-  font-family: "Open Sans", "Arial", sans-serif;
+  font-family: "OpenSans", "Arial", sans-serif;
   font-size: 14px;
   line-height: 30px;
   font-weight: 400;
