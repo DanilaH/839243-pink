@@ -1,12 +1,51 @@
 @media (min-width: $mobile) {
+  .copyright {
+    display: flex;
+    width: 130px;
+  }
+
   .copyright__text {
+    display: block;
+    margin-right: 15px;
+    margin-top: 20px;
+
     font-size: 14px;
     font-weight: 400;
     line-height: 18px;
+    vertical-align: middle;
+  }
+
+  .copyright__link {
+    display: block;
+    width: 25px;
+    height: 35px;
+    margin-top: 13px;
+
+    vertical-align: middle;
+  }
+
+  .copyright__logo:hover {
+    fill: rgb(40, 54, 69);
+  }
+
+  .copyright__logo:active {
+    fill: rgb(40, 54, 69);
+    fill-opacity: 0.2;
   }
 }
 
 @media (min-width: $tablet) {
+  .copyright {
+    justify-content: flex-end;
+    width: 153px;
+  }
+}
+
+@media (min-width: $desktop) {
+  .copyright {
+    width: 153px;
+  }
+
   .copyright__text {
     font-size: 18px;
   }
