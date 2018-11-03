@@ -115,7 +115,7 @@
     padding-bottom: 25px;
   }
 
- .form__block {
+  .form__block {
     margin-bottom: 16px;
   }
 
@@ -213,6 +213,7 @@
 
     width: 280px;
     height: 63px;
+    margin-bottom: 35px;
 
     font-size: 18px;
     font-weight: 700;
@@ -244,10 +245,6 @@
 
   .form .form__impression {
     margin-bottom: 40px;
-  }
-
-  .form__button {
-    margin-bottom: 35px;
   }
 
   .form__required-text {
@@ -333,8 +330,9 @@
   }
 
   .form__wrapper--contacts {
+    width: 500px;
     padding-top: 17px;
-    padding-bottom: 0px;
+    padding-bottom: 0;
   }
 
   .form__header--contacts {
@@ -350,10 +348,6 @@
   .form .form__contacts {
     margin-top: 35px;
     margin-bottom: 17px;
-  }
-
-  .form__wrapper--contacts {
-    width: 500px;
   }
 
   .form__header--checkbox {
@@ -540,7 +534,7 @@
 
   .form__inputs-item--1 {
     order: 1;
-    width: 265px
+    width: 265px;
   }
 
   .form__inputs-item--2 {

@@ -72,15 +72,12 @@
 
 @media (min-width: $tablet) {
   .about__wrapper {
-    width: 620px;
-    margin: 0 auto;
-    margin-bottom: 380px;
-  }
-
-  .about__wrapper {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    width: 620px;
+    margin: 0 auto;
+    margin-bottom: 380px;
   }
 
   .about__list {
