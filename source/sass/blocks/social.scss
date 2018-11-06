@@ -9,7 +9,49 @@
   .social__list {
     display: flex;
     justify-content: space-between;
-    width: 180px;
+    width: 178px;
     margin: 0 auto;
+    padding-top: 2px;
+  }
+
+  .social__link {
+    display: block;
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+
+    border: 3px solid rgba(40, 54, 69, 0.1);
+    border-radius: 50%;
+
+    &:hover {
+      border: 3px solid rgb(40, 54, 69);
+    }
+
+    &:active {
+      opacity: 0.2;
+
+      border: 2px solid rgb(40, 54, 69);
+    }
+  }
+
+  .social__link--twitter {
+    padding-top: 11px;
+    padding-left: 4px;
+  }
+
+  .social__link--facebook {
+    padding-top: 12px;
+  }
+
+  .social__link--youtube {
+    padding-top: 9px;
+    padding-left: 1px;
+  }
+}
+
+@media (min-width: $desktop) {
+  .social__list {
+    padding-top: 5px;
+    padding-left: 7px;
   }
 }

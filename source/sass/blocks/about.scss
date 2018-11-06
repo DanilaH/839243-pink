@@ -1,0 +1,141 @@
+.about__text {
+  margin: 0;
+
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 28px;
+}
+
+.about__black {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+.about__red {
+  margin: 0;
+
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 30px;
+  color: rgb(210, 40, 86);
+}
+
+@media (min-width: $mobile) {
+  .about {
+    text-align: center;
+  }
+
+  .about__wrapper {
+    width: 320px;
+    margin: 0 auto;
+  }
+
+  .about__text {
+    margin-bottom: 38px;
+  }
+
+  .about__black {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .about__red {
+    display: block;
+    margin: 0;
+    margin-bottom: 26px;
+
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 29px;
+    color: rgb(210, 40, 86);
+    text-decoration: none;
+
+    &:hover {
+      color: rgb(40, 54, 69);
+      text-decoration: underline;
+    }
+
+    &:active {
+      opacity: 0.2;
+      color: rgb(40, 54, 69);
+      text-decoration: none;
+    }
+  }
+
+  .about__red--street {
+    width: 240px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+  }
+}
+
+@media (min-width: $tablet) {
+  .about__wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 620px;
+    margin: 0 auto;
+    margin-bottom: 380px;
+  }
+
+  .about__list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .about__item {
+    width: 220px;
+    margin: 0 auto;
+    margin-bottom: 23px;
+  }
+
+  .about__text {
+    width: 620px;
+    margin: 0 auto;
+    margin-top: 2px;
+    margin-bottom: 45px;
+
+    font-size: 40px;
+    line-height: 49px;
+  }
+
+  .about__black {
+    margin-bottom: 9px;
+  }
+}
+
+@media (min-width: $desktop) {
+  .about__wrapper {
+    width: 940px;
+    margin-bottom: 535px;
+  }
+
+  .about__text {
+    margin-bottom: 60px;
+
+    font-size: 50px;
+    line-height: 60px;
+  }
+
+  .about__black {
+    margin-bottom: 25px;
+  }
+
+  .about__red--street {
+    width: auto;
+  }
+
+  .about__item--1 {
+    order: -3;
+  }
+
+  .about__item--2 {
+    order: -1;
+  }
+
+  .about__item--3 {
+    order: -2;
+  }
+}

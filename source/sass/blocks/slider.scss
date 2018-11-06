@@ -1,0 +1,46 @@
+.slider__toggles {
+  width: 65px;
+  margin: 0 auto;
+}
+
+.slider__toggle {
+  @include button-reset;
+
+  width: 6px;
+  height: 6px;
+  margin-right: 10px;
+  box-sizing: content-box;
+
+  font-size: 0;
+
+  background-color: rgba(126, 134, 143, 0.4);
+
+  border: 3px solid rgb(242, 242, 242);
+  border-radius: 50%;
+
+  &:hover {
+    background-color: rgba(126, 134, 143, 1);
+  }
+
+  &:active {
+    background-color: rgba(126, 134, 143, 0.2);
+  }
+}
+
+.slider__toggle--active {
+  background-color: transparent;
+
+  border: 3px solid rgb(40, 54, 69);
+
+  &:hover {
+    background-color: transparent;
+  }
+
+  &:active {
+    background-color: transparent;
+  }
+}
+
+.slider__toggle:nth-child(3) {
+  margin-right: 0;
+}

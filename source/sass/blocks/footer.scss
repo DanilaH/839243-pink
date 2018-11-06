@@ -1,4 +1,6 @@
 .footer__text {
+  margin: 0;
+
   font-size: 24px;
   font-weight: 300;
   line-height: 28px;
@@ -11,36 +13,75 @@
 }
 
 .footer__red {
+  margin: 0;
+
   font-size: 24px;
   font-weight: 300;
   line-height: 30px;
   color: rgb(210, 40, 86);
 }
 
-.footer__link {
-  font-size: 24px;
-  font-weight: 300;
-  line-height: 24px;
-  color: rgb(210, 40, 86);
-  text-decoration: none;
-}
-
 @media (min-width: $mobile) {
   .footer {
     text-align: center;
   }
-}
 
-@media (min-width: $tablet) {
-  .footer__wrapper,
-  .footer__wrapper--index {
-    width: 620px;
+  .footer__wrapper {
+    width: 320px;
     margin: 0 auto;
   }
 
+  .footer__logo {
+    display: block;
+    width: 150px;
+    margin: 0 auto;
+    margin-bottom: 28px;
+
+    cursor: pointer;
+  }
+
+  .footer__logo:hover .footer__logo-letter {
+    fill: rgb(210, 40, 86);
+  }
+
+  .footer__logo:active .footer__logo-letter {
+    fill: rgb(40, 54, 69);
+    opacity: 0.3;
+  }
+
+  .footer__logo:active .footer__logo-glasses {
+    opacity: 0.3;
+  }
+
+  .footer__logo-star {
+    display: none;
+  }
+
+  .footer__logo-desktop-glasses {
+    display: none;
+  }
+
+  .footer__social {
+    margin-bottom: 27px;
+  }
+
+  .footer__copyright {
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+}
+
+@media (min-width: $tablet) {
   .footer__wrapper {
+    width: 620px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    flex-direction: row;
+  }
+
+  .footer__logo {
+    margin: 0;
   }
 
   .footer__list {
@@ -51,25 +92,47 @@
   .footer__item {
     width: 220px;
     margin: 0 auto;
+    margin-bottom: 23px;
   }
 
   .footer__text {
+    width: 620px;
+    margin: 0 auto;
+    margin-top: 2px;
+    margin-bottom: 45px;
+
     font-size: 40px;
     line-height: 49px;
+  }
+
+  .footer__copyright {
+    margin: 0;
   }
 }
 
 @media (min-width: $desktop) {
-  .footer__wrapper,
-  .footer__wrapper--index {
+  .footer__wrapper {
     width: 940px;
+    padding-bottom: 20px;
   }
 
-  .footer__item--2 {
-    order: -2;
+  .footer__logo-glasses {
+    display: none;
   }
 
-  .footer__item--3 {
-    order: -1;
+  .footer__logo-star {
+    display: inline;
+  }
+
+  .footer__logo:active .footer__logo-star {
+    opacity: 0.3;
+  }
+
+  .footer__logo-desktop-glasses {
+    display: inline;
+  }
+
+  .footer__logo:active .footer__logo-desktop-glasses {
+    opacity: 0.3;
   }
 }

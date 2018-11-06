@@ -1,4 +1,8 @@
 @media (min-width: $mobile) {
+  .photo-list {
+    padding-top: 176px;
+  }
+
   .photo-list__text {
     font-size: 14px;
     font-weight: 400;
@@ -12,12 +16,11 @@
   .photo-list {
     display: flex;
     flex-wrap: wrap;
-    width: 660px;
+    justify-content: space-between;
+    width: 620px;
     margin: 0 auto;
-  }
-
-  .photo-list__item {
-    width: 300px;
+    padding-top: 539px;
+    margin-bottom: 65px;
   }
 }
 
@@ -28,5 +31,7 @@
 
   .photo-list {
     width: 940px;
+
+    margin-bottom: 56px;
   }
 }

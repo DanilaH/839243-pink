@@ -1,16 +1,148 @@
-.page-header {
-  background-color: rgba(40, 54, 69, 0.5);
-  color: rgb(255, 255, 255);
-}
-
 @media (min-width: $mobile) {
   .page-header {
+    background-color: rgb(40, 54, 69);
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    height: 70px;
+
+    color: rgb(255, 255, 255);
+  }
+
+  .page-header__container {
+    display: flex;
+    align-items: baseline;
+    width: 320px;
+    margin: 0 auto;
+    margin-top: 5px;
+    padding: 0 22px;
+    box-sizing: border-box;
+  }
+
+  .page-header__logo {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-left: -73px;
+
+    cursor: pointer;
+  }
+
+  .page-header__logo:hover .page-header__logo-letter {
+    fill: rgb(210, 40, 86);
+  }
+
+  .page-header__logo:active .page-header__logo-letter {
+    fill: rgba(255, 255, 255, 0.3);
+  }
+
+  .page-header__logo-star {
+    display: none;
+  }
+
+  .page-header__logo-tablet-glasses {
+    display: none;
+  }
+
+  .page-header__logo-desktop-glasses {
+    display: none;
+  }
+
+  .page-header__toggle {
+    @include button-reset;
+
+    display: block;
+    width: 50px;
+    height: 24px;
+    margin-left: auto;
+
+    text-align: right;
+  }
+
+  .page-header__toggle-icon {
+    fill: rgb(255, 255, 255);
+
+    &:hover {
+      fill: rgb(210, 40, 86);
+    }
+
+    &:active {
+      fill: rgb(210, 40, 86);
+      opacity: 0.3;
+    }
+  }
+}
+
+@media (min-width: $tablet) {
+  .page-header__container {
+    width: 620px;
+    margin-top: 25px;
+    margin-bottom: 28px;
+    padding: 0;
+  }
+
+  .page-header__logo {
+    width: 150px;
+    height: 41px;
+    margin-left: 0;
+
+    cursor: pointer;
+  }
+
+  .page-header__logo-tablet-glasses {
+    display: inline;
+  }
+
+  .page-header__logo:hover .page-header__logo-tablet-glasses {
+    fill: rgb(210, 40, 86);
+  }
+
+  .page-header__logo:active .page-header__logo-tablet-glasses {
+    fill: rgba(255, 255, 255, 0.3);
+  }
+}
+
+@media (min-width: $desktop) {
+  .page-header__wrapper {
+    display: flex;
+    width: 940px;
+    margin: 0 auto;
+  }
+
+  .page-header__toggle {
+    display: none;
+  }
+
+  .page-header__container {
+    display: block;
+    width: 151px;
   }
 
   .page-header__nav {
-    margin-left: auto;
+    margin-top: 40px;
+    margin-left: 170px;
+  }
+
+  .page-header__logo-star {
+    display: inline;
+  }
+
+  .page-header__logo:active .page-header__logo-star {
+    opacity: 0.3;
+  }
+
+  .page-header__logo-tablet-glasses {
+    display: none;
+  }
+
+  .page-header__logo-desktop-glasses {
+    display: inline;
+  }
+
+  .page-header__logo:hover .page-header__logo-desktop-glasses {
+    fill: rgb(210, 40, 86);
+  }
+
+  .page-header__logo:active .page-header__logo-desktop-glasses {
+    fill: rgba(255, 255, 255, 0.3);
   }
 }

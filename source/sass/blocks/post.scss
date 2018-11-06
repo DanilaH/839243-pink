@@ -9,7 +9,9 @@
 }
 
 .post__name-time {
+  font-size: 12px;
   font-weight: 400;
+  text-transform: uppercase;
   color: rgba(40, 53, 69, 0.4);
 }
 
@@ -36,23 +38,136 @@
     width: 280px;
     margin: 0 auto;
     margin-top: -10px;
-    padding: 20px 16px;
+    padding: 18px 16px 18px 19px;
     box-sizing: border-box;
+    margin-bottom: 211px;
+  }
+
+  .post__content--mobile {
+    margin-bottom: 45px;
+  }
+
+  .post__name {
+    display: block;
+  }
+
+  .post__comment {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+
+  .post__likes {
+    position: relative;
+
+    display: block;
+    margin: 0;
+    padding-left: 32px;
+
+    text-transform: uppercase;
+  }
+
+  .post__likes::before {
+    content: "";
+
+    position: absolute;
+    top: 6px;
+    left: 1px;
+
+    display: block;
+    width: 13px;
+    height: 12px;
+
+    background-image: url("../../img/icon-heart.svg");
+    background-repeat: no-repeat;
   }
 }
 
 @media (min-width: $tablet) {
+  .post {
+    margin: 0;
+  }
+
   .post--first {
     width: 620px;
     margin: 0 auto;
   }
 
+  .post__content {
+    position: relative;
+    margin-bottom: 330px;
+    padding: 23px 30px 23px 27px;
+  }
+
+  .post__comment {
+    margin-bottom: 30px;
+  }
+
+  .post__likes {
+    position: absolute;
+    bottom: 24px;
+    left: 26px;
+
+    padding: 0;
+  }
+
+  .post__content--tablet {
+    margin-bottom: 0;
+  }
+
+  .post__likes::before {
+    top: 6px;
+    left: 228px;
+  }
+
+  .post__content:not(.post__content--first) {
+    min-width: 300px;
+    min-height: 155px;
+  }
+
+  .post__comment--first {
+    margin-bottom: 2px;
+  }
+
   .post__content--first {
+    display: flex;
+    flex-wrap: wrap;
+    flex-derection: row;
     width: 620px;
+    margin-bottom: 360px;
+  }
+
+  .post__name--first {
+    width: 50%;
+    order: -2;
+  }
+
+  .post__likes--first {
+    position: relative;
+    left: 0;
+    bottom: 0;
+
+    width: 140px;
+    order: -1;
+    margin-left: auto;
+    padding-left: 21px;
+    box-sizing: border-box;
+  }
+
+  .post__likes--first::before {
+    top: 7px;
+    left: 128px;
   }
 }
 
 @media (min-width: $desktop) {
+  .post__content {
+    margin-bottom: 455px;
+  }
+
+  .post__content--desktop {
+    margin: 0;
+  }
+
   .post--first {
     width: 1200px;
   }
@@ -60,5 +175,10 @@
   .post__content--first {
     width: 940px;
     margin: 0 auto;
+    margin-bottom: 457px;
+  }
+
+  .post__likes--first {
+    margin-right: 2px;
   }
 }
