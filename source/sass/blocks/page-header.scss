@@ -60,15 +60,15 @@
 
   .page-header__toggle-icon {
     fill: rgb(255, 255, 255);
+  }
 
-    &:hover {
-      fill: rgb(210, 40, 86);
-    }
+  .page-header__toggle:hover .page-header__toggle-icon {
+    fill: rgb(210, 40, 86);
+  }
 
-    &:active {
-      fill: rgb(210, 40, 86);
-      opacity: 0.3;
-    }
+  .page-header__toggle:active .page-header__toggle-icon {
+    fill: rgb(210, 40, 86);
+    opacity: 0.3;
   }
 }
 
@@ -102,6 +102,16 @@
 }
 
 @media (min-width: $desktop) {
+  .page-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+
+    background-color: rgba(22, 29, 37, 0.5);
+  }
+
   .page-header__wrapper {
     display: flex;
     width: 940px;
@@ -118,8 +128,7 @@
   }
 
   .page-header__nav {
-    margin-top: 40px;
-    margin-left: 170px;
+    margin-left: 128px;
   }
 
   .page-header__logo-star {
