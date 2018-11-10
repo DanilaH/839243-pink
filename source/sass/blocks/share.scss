@@ -54,6 +54,16 @@
     height: 50px;
   }
 
+  .share__icon {
+    fill: rgb(181, 185, 190);
+
+    cursor: pointer;
+
+    &:hover {
+      fill: rgb(141, 148, 155);
+    }
+  }
+
   .share__icon--crop {
     width: 44px;
   }
@@ -66,15 +76,6 @@
     width: 38px;
   }
 
-  .share__icon {
-    fill: rgb(181, 185, 190);
-
-    cursor: pointer;
-
-    &:hover {
-      fill: rgb(141, 148, 155);
-    }
-  }
 
   .share__icon--active {
     fill: rgb(210, 40, 86);

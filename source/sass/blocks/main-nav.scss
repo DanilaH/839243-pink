@@ -54,10 +54,24 @@
 
   .main-nav__link {
     display: inline-block;
-    padding: 0;
+    padding: 45px 20px 40px 20px;
 
     font-weight: 400;
     line-height: 18px;
     text-transform: none;
+
+    background-color: transparent;
+  }
+
+  .main-nav__link--active {
+    border-bottom: 2px solid rgb(255, 255, 255);
+
+    &:hover {
+      color: rgb(255, 255, 255);
+    }
+
+    &:active {
+      color: rgb(255, 255, 255);
+    }
   }
 }

@@ -34,17 +34,48 @@
     margin-bottom: 20px;
   }
 
+  .post__first {
+    margin-bottom: 25px;
+  }
+
+  .post__item {
+    margin-bottom: 25px;
+  }
+
+  .post__img-container {
+    width: 280px;
+    height: 180px;
+    margin: 0 auto;
+  }
+
+  .post__first-img-container {
+    position: relative;
+
+    width: 320px;
+    height: 137px;
+    margin: 0 auto;
+  }
+
+  .post__first-label {
+    position: absolute;
+    top: 0;
+    right: 19px;
+
+    padding: 5px 20px 6px 20px;
+
+    font-size: 12px;
+    line-height: 24px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+
+    background-color: rgb(210, 40, 86);
+  }
+
   .post__content {
     width: 280px;
     margin: 0 auto;
-    margin-top: -10px;
     padding: 18px 16px 18px 19px;
     box-sizing: border-box;
-    margin-bottom: 211px;
-  }
-
-  .post__content--mobile {
-    margin-bottom: 45px;
   }
 
   .post__name {
@@ -54,6 +85,10 @@
   .post__comment {
     margin: 0;
     margin-bottom: 10px;
+  }
+
+  .post__comment--first {
+    margin-bottom: 0;
   }
 
   .post__likes {
@@ -87,19 +122,51 @@
     margin: 0;
   }
 
-  .post--first {
+  .post__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     width: 620px;
     margin: 0 auto;
+    margin-bottom: 65px;
+  }
+
+  .post__item {
+    margin-bottom: 20px;
+  }
+
+  .post__img-container {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+  }
+
+  .post__first-img-container {
+    width: 660px;
+    height: 509px;
+  }
+
+  .post__first-img-container img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .post__first-label {
+    top: 57px;
+    right: 55px;
+  }
+
+  .post__first {
+    margin: 0 auto;
+    margin-bottom: 43px;
   }
 
   .post__content {
     position: relative;
-    margin-bottom: 330px;
-    padding: 23px 30px 23px 27px;
-  }
 
-  .post__comment {
-    margin-bottom: 30px;
+    min-width: 300px;
+    min-height: 155px;
+    padding: 23px 30px 23px 27px;
   }
 
   .post__likes {
@@ -110,30 +177,17 @@
     padding: 0;
   }
 
-  .post__content--tablet {
-    margin-bottom: 0;
-  }
-
   .post__likes::before {
     top: 6px;
     left: 228px;
   }
 
-  .post__content:not(.post__content--first) {
-    min-width: 300px;
-    min-height: 155px;
-  }
-
-  .post__comment--first {
-    margin-bottom: 2px;
-  }
-
   .post__content--first {
     display: flex;
     flex-wrap: wrap;
-    flex-derection: row;
+    flex-direction: row;
     width: 620px;
-    margin-bottom: 360px;
+    min-height: 129px;
   }
 
   .post__name--first {
@@ -160,22 +214,39 @@
 }
 
 @media (min-width: $desktop) {
-  .post__content {
-    margin-bottom: 455px;
+  .post__list {
+    width: 940px;
+    margin-bottom: 0;
   }
 
-  .post__content--desktop {
-    margin: 0;
-  }
-
-  .post--first {
+  .post__first {
     width: 1200px;
+    margin-bottom: 50px;
+  }
+
+  .post__first-label {
+    top: 55px;
+    right: 130px;
+  }
+
+  .post__item {
+    margin-bottom: 54px;
+  }
+
+  .post__img-container {
+    width: 300px;
+    height: 400px;
   }
 
   .post__content--first {
     width: 940px;
+    min-height: 96px;
     margin: 0 auto;
-    margin-bottom: 457px;
+  }
+
+  .post__first-img-container {
+    width: 1200px;
+    height: 509px;
   }
 
   .post__likes--first {

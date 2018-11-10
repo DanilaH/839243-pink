@@ -22,6 +22,10 @@
 }
 
 @media (min-width: $mobile) {
+  .footer--index {
+    display: none;
+  }
+
   .footer {
     text-align: center;
   }
@@ -38,6 +42,10 @@
     margin-bottom: 28px;
 
     cursor: pointer;
+  }
+
+  .footer__logo-img--index {
+    cursor: default;
   }
 
   .footer__logo:hover .footer__logo-letter {
@@ -72,6 +80,10 @@
 }
 
 @media (min-width: $tablet) {
+  .footer--index {
+    display: block;
+  }
+
   .footer__wrapper {
     width: 620px;
     margin: 0 auto;
