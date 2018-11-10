@@ -145,12 +145,12 @@
     left: -30px;
     z-index: -1;
 
-    width: 700px;
+    width: 660px;
     height: 545px;
 
     background-image: url("../../img/iphone-hand-tablet@1x.png");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 
     @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
       background-image: url("../../img/iphone-hand-tablet@2x.png");

@@ -44,6 +44,10 @@
     cursor: pointer;
   }
 
+  .footer__logo-img--index {
+    cursor: default;
+  }
+
   .footer__logo:hover .footer__logo-letter {
     fill: rgb(210, 40, 86);
   }

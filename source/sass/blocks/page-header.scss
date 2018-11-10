@@ -27,6 +27,10 @@
     cursor: pointer;
   }
 
+  .page-header__logo--index {
+    cursor: default;
+  }
+
   .page-header__logo:hover .page-header__logo-letter {
     fill: rgb(210, 40, 86);
   }
