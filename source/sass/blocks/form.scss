@@ -64,6 +64,7 @@
   font-size: 14px;
   font-weight: 400;
   line-height: 30px;
+  text-transform: uppercase;
   color: rgb(40, 54, 69);
 }
 
@@ -72,6 +73,10 @@
 }
 
 @media (min-width: $mobile) {
+  .form {
+    margin-top: -32px;
+  }
+
   .form__wrapper {
     width: 280px;
     margin: 0 auto;
@@ -81,7 +86,7 @@
     display: block;
     width: 100%;
     margin: 0 auto;
-    padding-top: 37px;
+    padding-top: 38px;
     padding-bottom: 40px;
     box-sizing: border-box;
 
@@ -92,7 +97,7 @@
 
   .form__header--impression {
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
 
     background-color: rgb(255, 255, 255);
   }
@@ -104,7 +109,7 @@
   }
 
   .form__header--radio {
-    padding-bottom: 45px;
+    padding-bottom: 35px;
   }
 
   .form__header--contacts {
@@ -218,6 +223,7 @@
     font-size: 18px;
     font-weight: 700;
     line-height: 30px;
+    text-transform: uppercase;
     color: rgb(255, 255, 255);
 
     background-color: rgb(42, 171, 109);
@@ -244,6 +250,7 @@
   }
 
   .form .form__impression {
+    margin-top: 20px;
     margin-bottom: 40px;
   }
 
@@ -265,6 +272,7 @@
     flex-direction: column;
     width: 620px;
     margin: 0 auto;
+    margin-top: -19px;
   }
 
   .form fieldset {
@@ -313,6 +321,10 @@
     display: inline;
   }
 
+  .form__header--radio {
+    padding-bottom: 42px;
+  }
+
   .form__block--name {
     display: flex;
     flex-direction: row;
@@ -346,8 +358,8 @@
   }
 
   .form .form__contacts {
-    margin-top: 35px;
-    margin-bottom: 17px;
+    margin-top: 38px;
+    margin-bottom: 14px;
   }
 
   .form__header--checkbox {
@@ -425,8 +437,8 @@
   }
 
   .form .form__impression {
-    margin-top: 35px;
-    margin-bottom: 67px;
+    margin-top: 38px;
+    margin-bottom: 69px;
   }
 
   .form__wrapper--impression {
@@ -462,6 +474,7 @@
   .form {
     flex-direction: row;
     width: 940px;
+    margin-top: -27px;
   }
 
   .form__wrapper {
@@ -509,7 +522,7 @@
   }
 
   .form__text--contacts {
-    margin-left: 15px;
+    margin-left: 21px;
     margin-top: 9px;
   }
 
@@ -530,6 +543,11 @@
   .form__wrapper--checkbox {
     padding-top: 45px;
     padding-bottom: 10px;
+  }
+
+  .form__inputs-checkbox + label::before,
+  .form__inputs-radio + label::before {
+    margin-right: 24px;
   }
 
   .form__inputs-item--1 {
@@ -574,12 +592,12 @@
     flex-direction: column;
     width: 300px;
     margin: 0 auto;
-    padding-left: 72px;
+    padding-left: 20px;
     padding-top: 45px;
   }
 
   .form .form__impression {
-    margin-top: 59px;
+    margin-top: 57px;
   }
 
   .form__wrapper--impression {

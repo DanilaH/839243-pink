@@ -81,7 +81,7 @@
   .description__item {
     width: 280px;
     margin: 0 auto;
-    margin-bottom: 30px;
+    margin-bottom: 32px;
   }
 
   .description__item-header {
@@ -178,7 +178,7 @@
 
 @media (min-width: $desktop) {
   .description {
-    padding-top: 65px;
+    padding-top: 68px;
   }
 
   .description__text {
@@ -197,9 +197,9 @@
   }
 
   .description__wrapper {
-    margin-top: 168px;
+    margin-top: 160px;
     padding: 0;
-    padding-top: 264px;
+    padding-top: 269px;
   }
 
   .description__wrapper::before {
@@ -290,7 +290,7 @@
   }
 
   .description__item-header {
-    margin-bottom: 22px;
+    margin-bottom: 23px;
 
     font-size: 30px;
     font-weight: 700;

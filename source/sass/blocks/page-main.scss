@@ -24,12 +24,13 @@
   }
 
   .page-main__header {
-    min-height: 171px;
-    padding-top: 30px;
-    padding-bottom: 53px;
+    min-height: 173px;
+    padding-top: 34px;
+    padding-bottom: 54px;
     box-sizing: border-box;
 
     background-image: url("../../img/bg-back-mobile@1x.jpg");
+    background-color: rgb(29, 39, 50);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0 20%;
@@ -42,7 +43,7 @@
   .page-main__text {
     width: 280px;
     margin: 0 auto;
-    padding-top: 47px;
+    padding-top: 45px;
     padding-bottom: 50px;
   }
 
@@ -104,7 +105,7 @@
   }
 
   .page-main__text {
-    width: 640px;
+    width: 770px;
     padding-bottom: 85px;
   }
 }

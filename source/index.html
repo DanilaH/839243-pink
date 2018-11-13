@@ -2,8 +2,13 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>PINK Главная</title>
     <link rel="stylesheet" type="text/css" href="css/style-min.css">
+    <link rel="preload" href="fonts/opensansbold.woff2" as="font">
+    <link rel="preload" href="fonts/opensansbold.woff2" as="font">
+    <link rel="preload" href="fonts/opensans.woff2" as="font">
+    <link rel="preload" href="fonts/opensanslight.woff2" as="font">
   </head>
   <body>
     <svg style="display:none">
@@ -109,12 +114,12 @@
       <div class="page-header__wrapper">
         <div class="page-header__container">
           <a class="page-header__logo page-header__logo--index">
-            <svg class="page-header__logo-img" version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="146.3px" height="40.375px" viewBox="0 0 146.3 40.375" enable-background="new 0 0 146.3 40.375" xml:space="preserve">
+            <svg class="page-header__logo-img" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="146.3px" height="40.375px" viewBox="0 0 146.3 40.375" enable-background="new 0 0 146.3 40.375" xml:space="preserve">
               <use xlink:href="#header-logo"></use>
             </svg>
           </a>
           <button class="page-header__toggle" type="button">
-            <svg class="page-header__toggle-icon" version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="23.867px" height="23.867px" viewBox="0 0 23.867 23.867" fill="#d22856" enable-background="new 0 0 23.867 23.867" xml:space="preserve">
+            <svg class="page-header__toggle-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="23.867px" height="23.867px" viewBox="0 0 23.867 23.867" fill="#d22856" enable-background="new 0 0 23.867 23.867" xml:space="preserve">
               <use xlink:href="#close-toggle"></use>
             </svg>
           </button>
@@ -150,22 +155,22 @@
             <h3 class="visually-hidden">Ссылки на прриложение</h3>
             <ul class="apps__list">
               <li class="apps__item apps__item--ios">
-                <a class="apps__link apps__link--ios" href="#">
-                  <svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="46.21px" height="56.753px" viewBox="0 0 46.21 56.753" enable-background="new 0 0 46.21 56.753" xml:space="preserve">
+                <a class="apps__link apps__link--ios" href="https://www.apple.com/ru/itunes/">
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="46.21px" height="56.753px" viewBox="0 0 46.21 56.753" enable-background="new 0 0 46.21 56.753" xml:space="preserve">
                     <use xlink:href="#ios-icon"></use>
                   </svg>
                 </a>
               </li>
               <li class="apps__item apps__item--android">
-                <a class="apps__link" href="#">
-                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="42.084px" height="47.041px" viewBox="0 0 42.084 47.041" enable-background="new 0 0 42.084 47.041" xml:space="preserve">
+                <a class="apps__link" href="https://play.google.com/store/apps?hl=ru">
+                  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="42.084px" height="47.041px" viewBox="0 0 42.084 47.041" enable-background="new 0 0 42.084 47.041" xml:space="preserve">
                     <use xlink:href="#android-icon"></use>
                   </svg>
                 </a>
               </li>
               <li class="apps__item apps_item--windows">
-                <a class="apps__link" href="#">
-                  <svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="43.922px" height="41.992px" viewBox="0 0 43.922 41.992" enable-background="new 0 0 43.922 41.992" xml:space="preserve">
+                <a class="apps__link" href="https://www.microsoft.com/ru-ru/store/apps/windows-phone">
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="43.922px" height="41.992px" viewBox="0 0 43.922 41.992" enable-background="new 0 0 43.922 41.992" xml:space="preserve">
                     <use xlink:href="#wp-icon"></use>
                   </svg>
                 </a>
@@ -288,7 +293,7 @@
       </section>
 
       <section class="about">
-        <div class="about__wrapper footer__wrapper--index">
+        <div class="about__wrapper">
           <h2 class="visually-hidden">Обратная связь!</h2>
           <p class="about__text">
             Остались вопросы?<br>
@@ -310,7 +315,7 @@
           </div>
         </div>
         <div class="about__map-container">
-          <iframe class="about__map" src="https://yandex.ru/map-widget/v1/-/CBBt4Pa-oB" width="320" height="200" frameborder="0" allowfullscreen="true"></iframe>
+          <iframe class="about__map" src="https://yandex.ru/map-widget/v1/-/CBBt4Pa-oB" width="320" height="200"></iframe>
         </div>
       </section>
     </main>
@@ -318,7 +323,7 @@
     <footer class="footer footer--index">
       <div class="footer__wrapper">
         <a class="footer__logo">
-          <svg class="footer__logo-img footer__logo-img--index" version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="146.3px" height="40.375px" viewBox="0 0 146.3 40.375" enable-background="new 0 0 146.3 40.375" xml:space="preserve">
+          <svg class="footer__logo-img footer__logo-img--index" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="146.3px" height="40.375px" viewBox="0 0 146.3 40.375" enable-background="new 0 0 146.3 40.375" xml:space="preserve">
             <use xlink:href="#footer-logo"></use>
           </svg>
         </a>
@@ -326,21 +331,21 @@
         <ul class="social__list">
           <li class="social__item">
             <a class="social__link social__link--twitter" href="#">
-              <svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="17.5px" height="14.663px" viewBox="0 0 17.5 14.663" fill="#d22856" enable-background="new 0 0 17.5 14.663" xml:space="preserve">
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="17.5px" height="14.663px" viewBox="0 0 17.5 14.663" fill="#d22856" enable-background="new 0 0 17.5 14.663" xml:space="preserve">
                 <use xlink:href="#twitter-icon"></use>
               </svg>
             </a>
           </li>
           <li class="social__item">
             <a class="social__link social__link--facebook" href="#">
-              <svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="8.673px" height="18.944px" viewBox="0 0 8.673 18.944" fill="#d22856" enable-background="new 0 0 8.673 18.944" xml:space="preserve">
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="8.673px" height="18.944px" viewBox="0 0 8.673 18.944" fill="#d22856" enable-background="new 0 0 8.673 18.944" xml:space="preserve">
                 <use xlink:href="#fb-icon"></use>
               </svg>
             </a>
           </li>
           <li class="social__item">
             <a class="social__link social__link--youtube" href="#">
-              <svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="14.64px" height="13.96px" viewBox="0 0 14.64 13.96" fill="#d22856"enable-background="new 0 0 14.64 13.96" xml:space="preserve">
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="14.64px" height="13.96px" viewBox="0 0 14.64 13.96" fill="#d22856" enable-background="new 0 0 14.64 13.96" xml:space="preserve">
                 <use xlink:href="#yt-icon"></use>
               </svg>
             </a>
@@ -350,12 +355,13 @@
         <div class="footer__copyright copyright">
           <b class="copyright__text">Разработано</b>
           <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">
-            <svg class="copyright__logo" version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="27" height="35" viewBox="0 0 26.943 34.09" fill="#d22856" enable-background="new 0 0 26.943 34.09" xml:space="preserve">
+            <svg class="copyright__logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="27" height="35" viewBox="0 0 26.943 34.09" fill="#d22856" enable-background="new 0 0 26.943 34.09" xml:space="preserve">
               <use xlink:href="#ha-icon"></use>
             </svg>
           </a>
         </div>
       </div>
     </footer>
+    <script src="js/picturefill.js"></script>
   </body>
 </html>
