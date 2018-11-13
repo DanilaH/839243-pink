@@ -18,6 +18,7 @@
 @media (min-width: $mobile) {
   .share {
     margin-bottom: 39px;
+    padding-top: 16px;
 
     text-align: center;
   }
@@ -183,7 +184,7 @@
   .share {
     display: flex;
     flex-direction: column;
-    margin-bottom: 37px;
+    margin-bottom: 35px;
   }
 
   .share__text {
@@ -319,6 +320,7 @@
 @media (min-width: $desktop) {
   .share {
     margin-bottom: 100px;
+    padding-top: 3px;
   }
 
   .share__wrapper {
@@ -326,14 +328,14 @@
     margin: 0 auto;
   }
 
+  .share__wrapper picture {
+    margin-left: 10px;
+  }
+
   .share__buttons {
     width: 800px;
     padding-top: 53px;
     padding-bottom: 25px;
-  }
-
-  .share__image {
-    margin-left: 10px;
   }
 
   .share__container {
