@@ -1,0 +1,175 @@
+[33mcommit a241cb55db1faf49c29659d89abd1728d9df161e[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: LilChill <danil.hitev13@gmail.com>
+Date:   Wed Nov 14 00:17:37 2018 +0500
+
+    правки
+
+[33mcommit 48a31f418ef4b57dcae5f398a00571c1467c5f95[m[33m ([m[1;31macademy/master[m[33m)[m
+Merge: 3e68bc3 5cf9a07
+Author: Keks <keksobot@users.noreply.github.com>
+Date:   Sat Nov 10 23:02:48 2018 +0300
+
+    Merge pull request #8 from DanilaH/module8-task1
+
+[33mcommit 5cf9a07c1a965a4dd8eb626613b1139597a1e183[m[33m ([m[1;31morigin/module8-task1[m[33m, [m[1;32mmodule8-task1[m[33m)[m
+Author: LilChill <danil.hitev13@gmail.com>
+Date:   Sat Nov 10 22:28:47 2018 +0500
+
+    сборка
+
+[33mcommit b074d05ea4e05bdff8b138ad0957fe8cac36caa1[m[33m ([m[1;31morigin/module7-task1[m[33m, [m[1;32mmodule7-task1[m[33m)[m
+Author: LilChill <danil.hitev13@gmail.com>
+Date:   Sat Nov 10 21:49:45 2018 +0500
+
+    спрайт и webp
+
+[33mcommit 7b1393087f2138fabfc393650d208aadb8d3a073[m[33m ([m[1;31morigin/module6-task1[m[33m, [m[1;32mmodule6-task1[m[33m)[m
+Author: LilChill <danil.hitev13@gmail.com>
+Date:   Thu Nov 8 22:23:41 2018 +0500
+
+    изображения
+
+[33mcommit 3e68bc353fbd77c81916138b26b749d9b8619b9c[m
+Merge: 83c3dea a982d27
+Author: Keks <keksobot@users.noreply.github.com>
+Date:   Tue Nov 6 11:34:35 2018 +0300
+
+    Merge pull request #5 from DanilaH/module5-task1
+
+[33mcommit 83c3deacfe20d3c4a5019f634de3adae3c12857d[m
+Author: Keks <keks@htmlacademy.ru>
+Date:   Sun Nov 4 16:30:17 2018 +0300
+
+    :gift: Добавляет остатки ретиновой и векторной графики
+
+[33mcommit a982d2783579ded49c054fb802f2508030c49f85[m[33m ([m[1;31morigin/module5-task1[m[33m, [m[1;32mmodule5-task1[m[33m)[m
+Author: LilChill <danil.hitev13@gmail.com>
+Date:   Sat Nov 3 23:23:30 2018 +0500
+
+    Все сетки
+
+[33mcommit 94c5ea5303c6abc0a8350609fb602f54e3db6bf5[m
+Author: LilChill <danil.hitev13@gmail.com>
+Date:   Sat Nov 3 23:22:30 2018 +0500
+
+    Всетки
+
+[33mcommit 7c1724ec04e33ee6f7a291169d62d7571cdb25a8[m
+Merge: bcb46e0 ce098b9
+Author: Keks <keksobot@users.noreply.github.com>
+Date:   Tue Oct 16 14:41:22 2018 +0300
+
+    Merge pull request #4 from DanilaH/module4-task1
+
+[33mcommit ce098b9ef1c9c6b589a63cfba2a4067aa0b8ffdc[m[33m ([m[1;31morigin/module4-task1[m[33m, [m[1;32mmodule4-task1[m[33m)[m
+Author: LilChill <danil.hitev13@gmail.com>
+Date:   Sun Oct 14 14:31:12 2018 +0500
+
+    Сетки-сетки
+
+[33mcommit e814bc9024e5912d75fb71d454f6e1034a4c3786[m
+Author: LilChill <danil.hitev13@gmail.com>
+Date:   Sun Oct 14 14:08:08 2018 +0500
+
+    Кажется сетки
+
+[33mcommit bcb46e0c39bf427fc5dafbe83075f6eaafa659df[m
+Merge: b80728c 6d731fb
+Author: Keks <keksobot@users.noreply.github.com>
+Date:   Mon Oct 8 16:28:19 2018 +0300
+
+    Merge pull request #3 from DanilaH/module3-task1
+
+[33mcommit 6d731fb62e0e793d634c293061352878d2c5e5e6[m[33m ([m[1;31morigin/module3-task1[m[33m, [m[1;32mmodule3-task1[m[33m)[m
+Author: LilChill <danil.hitev13@gmail.com>
+Date:   Mon Oct 8 18:25:19 2018 +0500
+
+    Убранное
+
+[33mcommit ec6cc0503eb67f1e59539b387a9d41cb485d4ac9[m
+Author: LilChill <danil.hitev13@gmail.com>
+Date:   Mon Oct 8 18:01:05 2018 +0500
+
+    Препроцессорное
+
+[33mcommit 49fc28a0382b464f062138e26199fb867e339364[m
+Author: LilChill <danil.hitev13@gmail.com>
+Date:   Mon Oct 8 14:43:43 2018 +0500
+
+    ...
+
+[33mcommit 7fa4a9392589c286e4fbd258074b20097b85e4ba[m
+Author: LilChill <danil.hitev13@gmail.com>
+Date:   Mon Oct 8 14:29:30 2018 +0500
+
+    Переносы и перестановки
+
+[33mcommit 8d068506a4920f443f82b41e49a54bc90c090469[m
+Author: LilChill <danil.hitev13@gmail.com>
+Date:   Sat Oct 6 23:41:17 2018 +0500
+
+    Препроцики
+
+[33mcommit 412b8be824186f4c10935883f304907f2d9b9dd3[m
+Author: LilChill <danil.hitev13@gmail.com>
+Date:   Sat Oct 6 23:35:40 2018 +0500
+
+    Препроцессоры
+
+[33mcommit a4c4797fcb1b70a7e1b437a2c3fa3bce38aabda7[m
+Author: LilChill <danil.hitev13@gmail.com>
+Date:   Sat Oct 6 23:08:45 2018 +0500
+
+    Начало препроцессорное 2.0
+
+[33mcommit 54391b1b00893989af383e567fad7259f47fad1d[m
+Author: LilChill <danil.hitev13@gmail.com>
+Date:   Sat Oct 6 22:49:53 2018 +0500
+
+    Начало препроцессорное
+
+[33mcommit b80728c48dd725bba84b92af8a99c8c27977adce[m
+Author: Keks <keks@htmlacademy.ru>
+Date:   Wed Oct 3 05:23:20 2018 +0300
+
+    :kissing_cat: Добавляет сборку Sass на Gulp
+
+[33mcommit 0fd6a410848392ca3cb7d1887ee1f177667b2311[m
+Author: Keks <keks@htmlacademy.ru>
+Date:   Wed Oct 3 05:23:01 2018 +0300
+
+    :gift: Нарезает графику для вёрстки
+
+[33mcommit a11e67b7289f0eaaae7382de09bf4702cc5f2df4[m
+Merge: 92e1db6 876a297
+Author: Keks <keksobot@users.noreply.github.com>
+Date:   Tue Oct 2 22:03:49 2018 +0300
+
+    Merge pull request #2 from DanilaH/module2-task1
+
+[33mcommit 876a29796f97d2726a41ba5dcb534dcf7503659d[m[33m ([m[1;31morigin/module2-task1[m[33m)[m
+Author: LilChill <danil.hitev13@gmail.com>
+Date:   Mon Oct 1 20:39:32 2018 +0500
+
+    Как бы вёрстка
+
+[33mcommit 92e1db6b6021ac33701ba59083625c4dfbc3df1d[m
+Merge: 03f1ca6 018eed2
+Author: surfingLori <heather.and.pinetrees@gmail.com>
+Date:   Thu Sep 27 21:21:45 2018 +0300
+
+    Merge pull request #1 from DanilaH/module1-task1
+    
+    Проверяем рабочий процесс
+
+[33mcommit 018eed2ab6e0b5998052a70eb973aaa9e8ec4fba[m[33m ([m[1;31morigin/module1-task1[m[33m, [m[1;32mmodule1-task1[m[33m)[m
+Author: LilChill <danil.hitev13@gmail.com>
+Date:   Thu Sep 27 20:34:24 2018 +0500
+
+    Добавляет наставника
+
+[33mcommit 03f1ca6b4f2ab230bf993fcac34f1fc9919f6db2[m
+Author: Keks <keks@htmlacademy.ru>
+Date:   Tue Sep 25 15:43:01 2018 +0300
+
+    :hatching_chick:
