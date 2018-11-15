@@ -35,11 +35,11 @@
   }
 
   .post__first {
-    margin-bottom: 25px;
+    margin-bottom: 21px;
   }
 
   .post__item {
-    margin-bottom: 18px;
+    margin-bottom: 21px;
   }
 
   .post__img-container {
@@ -77,7 +77,7 @@
 
     width: 280px;
     margin: 0 auto;
-    padding: 19px 16px 18px 18px;
+    padding: 18px 16px 18px 18px;
     box-sizing: border-box;
   }
 
@@ -88,17 +88,19 @@
   .post__comment {
     margin: 0;
     margin-bottom: 10px;
-    padding-bottom: 28px;
+    padding-bottom: 23px;
   }
 
   .post__comment--first {
+    margin-top: -7px;
     margin-bottom: 0;
+    padding-bottom: 35px;
   }
 
   .post__likes {
     position: absolute;
-    bottom: 22px;
-    left: 16px;
+    bottom: 20px;
+    left: 17px;
 
     display: block;
     margin: 0;
@@ -108,8 +110,8 @@
   }
 
   .post__likes--first {
-    bottom: 14px;
-    left: 16px;
+    bottom: 18px;
+    left: 17px;
   }
 
   .post__likes::before {
@@ -139,7 +141,7 @@
     justify-content: space-between;
     width: 620px;
     margin: 0 auto;
-    margin-bottom: 29px;
+    margin-bottom: 23px;
   }
 
   .post__item {
@@ -187,15 +189,15 @@
 
   .post__likes {
     position: absolute;
-    bottom: 24px;
-    left: 26px;
+    bottom: 20px;
+    left: 28px;
 
     padding: 0;
   }
 
   .post__likes::before {
-    top: 6px;
-    left: 228px;
+    top: 5px;
+    left: 227px;
   }
 
   .post__content--first {
@@ -265,7 +267,19 @@
     height: 509px;
   }
 
+  .post__comment--first {
+    margin-top: 0;
+  }
+
+  .post__likes {
+    bottom: 24px;
+    left: 27px;
+  }
+
   .post__likes--first {
+    bottom: 0;
+    left: 0;
+
     margin-right: 2px;
   }
 }

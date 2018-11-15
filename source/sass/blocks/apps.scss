@@ -12,7 +12,6 @@
 @media (min-width: $mobile) {
   .apps {
     background-image: url("../../img/bg-back-mobile@1x.jpg");
-    background-color: rgb(37, 39, 45);
     background-repeat: no-repeat;
     background-size: 100% 462px;
     background-position: 0 -64px;
@@ -32,6 +31,8 @@
 
   .apps__container {
     position: relative;
+
+    padding-top: 423px;
   }
 
   .apps__container::before {
@@ -62,9 +63,10 @@
   .apps__button {
     @include button-reset;
 
+    display: block;
+
     width: 280px;
     margin: 0 auto;
-    margin-top: 427px;
     margin-bottom: 32px;
     padding: 15px 0;
 
@@ -72,6 +74,7 @@
     font-weight: 700;
     line-height: 18px;
     color: rgb(255, 255, 255);
+    text-decoration: none;
 
     border: 3px solid rgb(255, 255, 255);
     border-radius: 40px;
@@ -130,7 +133,7 @@
   .apps__container {
     z-index: 5;
 
-    width: 305px;
+    width: 300px;
     margin-right: auto;
     padding-top: 95px;
     padding-bottom: 109px;
@@ -163,7 +166,7 @@
 
     width: 200px;
     margin: 0 auto;
-    margin-bottom: 33px;
+    margin-bottom: 30px;
 
     font-size: 40px;
     font-weight: 300;

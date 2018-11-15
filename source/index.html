@@ -6,7 +6,6 @@
     <title>PINK Главная</title>
     <link rel="stylesheet" type="text/css" href="css/style-min.css">
     <link rel="preload" href="fonts/opensansbold.woff2" as="font">
-    <link rel="preload" href="fonts/opensansbold.woff2" as="font">
     <link rel="preload" href="fonts/opensans.woff2" as="font">
     <link rel="preload" href="fonts/opensanslight.woff2" as="font">
   </head>
@@ -118,7 +117,7 @@
               <use xlink:href="#header-logo"></use>
             </svg>
           </a>
-          <button class="page-header__toggle" type="button">
+          <button aria-label="Закрыть" class="page-header__toggle" type="button">
             <svg class="page-header__toggle-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="23.867px" height="23.867px" viewBox="0 0 23.867 23.867" fill="#d22856" enable-background="new 0 0 23.867 23.867" xml:space="preserve">
               <use xlink:href="#close-toggle"></use>
             </svg>
@@ -127,16 +126,16 @@
         <nav class="page-header__nav main-nav">
           <ul class="main-nav__list">
             <li class="main-nav__item">
-              <a class="main-nav__link main-nav__link--active">Главная</a>
+              <a class="main-nav__link main-nav__link--active" aria-label="Главная">Главная</a>
             </li>
             <li class="main-nav__item">
-              <a class="main-nav__link" href="photo.html">Фотографии</a>
+              <a class="main-nav__link" href="photo.html" aria-label="Фотографии">Фотографии</a>
             </li>
             <li class="main-nav__item">
-              <a class="main-nav__link" href="form.html">Конкурс</a>
+              <a class="main-nav__link" href="form.html" aria-label="Участие в конкурсе">Конкурс</a>
             </li>
             <li class="main-nav__item">
-              <a class="main-nav__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
+              <a class="main-nav__link" href="https://htmlacademy.ru/intensive/adaptive" aria-label="HTML Academy">HTML Academy</a>
             </li>
           </ul>
         </nav>
@@ -151,25 +150,25 @@
         <div class="apps__wrapper">
           <div class="apps__container">
             <h2 class="apps__header">Взгляните на жизнь иначе!</h2>
-            <button class="button apps__button">Скачать приложение</button>
+            <a class="button apps__button" href="https://www.apple.com/ru/itunes/" aria-label="Скачать придожение">Скачать приложение</a>
             <h3 class="visually-hidden">Ссылки на прриложение</h3>
             <ul class="apps__list">
               <li class="apps__item apps__item--ios">
-                <a class="apps__link apps__link--ios" href="https://www.apple.com/ru/itunes/">
+                <a class="apps__link apps__link--ios" href="https://www.apple.com/ru/itunes/" aria-label="App Store">
                   <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="46.21px" height="56.753px" viewBox="0 0 46.21 56.753" enable-background="new 0 0 46.21 56.753" xml:space="preserve">
                     <use xlink:href="#ios-icon"></use>
                   </svg>
                 </a>
               </li>
               <li class="apps__item apps__item--android">
-                <a class="apps__link" href="https://play.google.com/store/apps?hl=ru">
+                <a class="apps__link" href="https://play.google.com/store/apps?hl=ru" aria-label="Play Market">
                   <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="42.084px" height="47.041px" viewBox="0 0 42.084 47.041" enable-background="new 0 0 42.084 47.041" xml:space="preserve">
                     <use xlink:href="#android-icon"></use>
                   </svg>
                 </a>
               </li>
               <li class="apps__item apps_item--windows">
-                <a class="apps__link" href="https://www.microsoft.com/ru-ru/store/apps/windows-phone">
+                <a class="apps__link" href="https://www.microsoft.com/ru-ru/store/apps/windows-phone" aria-label="Windows Phone">
                   <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="43.922px" height="41.992px" viewBox="0 0 43.922 41.992" enable-background="new 0 0 43.922 41.992" xml:space="preserve">
                     <use xlink:href="#wp-icon"></use>
                   </svg>
@@ -237,9 +236,9 @@
           <button class="reviews__to-left">Влево</button>
           <button class="reviews__to-right">Вправо</button>
           <p class="reviews__toggles slider__toggles">
-            <button class="slider__toggle slider__toggle--active slider__toggle--reviews" type="button">1</button>
-            <button class="slider__toggle slider__toggle--reviews" type="button">2</button>
-            <button class="slider__toggle slider__toggle--reviews" type="button">3</button>
+            <button class="slider__toggle slider__toggle--active slider__toggle--reviews" type="button" aria-label="Первый отзыв">1</button>
+            <button class="slider__toggle slider__toggle--reviews" type="button" aria-label="Второй отзыв">2</button>
+            <button class="slider__toggle slider__toggle--reviews" type="button" aria-label="Третий отзыв">3</button>
           </p>
         </div>
       </section>
@@ -285,9 +284,9 @@
               </tr>
           </table>
           <div class="bundle__toggles slider__toggles">
-            <button class="slider__toggle" type="button">1</button>
-            <button class="slider__toggle slider__toggle--active" type="button">2</button>
-            <button class="slider__toggle" type="button">3</button>
+            <button class="slider__toggle" type="button" aria-label="Базовый">1</button>
+            <button class="slider__toggle slider__toggle--active" type="button" aria-label="Стандартный">2</button>
+            <button class="slider__toggle" type="button" aria-label="Анлим">3</button>
           </div>
         </div>
       </section>
@@ -302,15 +301,15 @@
           <div class="about__list">
             <div class="about__item about__item--1">
               <b class="about__black">Звоните:</b>
-              <a class="about__red" href="tel:+7(812)555-66-66">+7 (812) 555-66-66</a>
+              <a class="about__red" href="tel:+7(812)555-66-66" aria-label="Телефон">+7 (812) 555-66-66</a>
             </div>
             <div class="about__item about__item--2">
               <b class="about__black">Пишите:</b>
-              <a class="about__red" href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
+              <a class="about__red" href="mailto:mail@htmlacademy.ru" aria-label="Мыло">mail@htmlacademy.ru</a>
             </div>
             <div class="about__item about__item--3">
               <b class="about__black">Приезжайте в гости:</b>
-              <a class="about__red about__red--street">ул. Большая Конюшенная, 19/8</a>
+              <a class="about__red about__red--street" aria-label="Адрес">ул. Большая Конюшенная, 19/8</a>
             </div>
           </div>
         </div>
@@ -322,7 +321,7 @@
 
     <footer class="footer footer--index">
       <div class="footer__wrapper">
-        <a class="footer__logo">
+        <a class="footer__logo" aria-label="Логотип, переход на главную">
           <svg class="footer__logo-img footer__logo-img--index" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="146.3px" height="40.375px" viewBox="0 0 146.3 40.375" enable-background="new 0 0 146.3 40.375" xml:space="preserve">
             <use xlink:href="#footer-logo"></use>
           </svg>
@@ -330,21 +329,21 @@
         <div class="footer__social social">
         <ul class="social__list">
           <li class="social__item">
-            <a class="social__link social__link--twitter" href="#">
+            <a class="social__link social__link--twitter" href="http://twitter.com" aria-label="Twitter">
               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="17.5px" height="14.663px" viewBox="0 0 17.5 14.663" fill="#d22856" enable-background="new 0 0 17.5 14.663" xml:space="preserve">
                 <use xlink:href="#twitter-icon"></use>
               </svg>
             </a>
           </li>
           <li class="social__item">
-            <a class="social__link social__link--facebook" href="#">
+            <a class="social__link social__link--facebook" href="http://facebook.com" aria-label="Facebook">
               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="8.673px" height="18.944px" viewBox="0 0 8.673 18.944" fill="#d22856" enable-background="new 0 0 8.673 18.944" xml:space="preserve">
                 <use xlink:href="#fb-icon"></use>
               </svg>
             </a>
           </li>
           <li class="social__item">
-            <a class="social__link social__link--youtube" href="#">
+            <a class="social__link social__link--youtube" href="http://youtube.com" aria-label="Youtube">
               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="14.64px" height="13.96px" viewBox="0 0 14.64 13.96" fill="#d22856" enable-background="new 0 0 14.64 13.96" xml:space="preserve">
                 <use xlink:href="#yt-icon"></use>
               </svg>
@@ -354,7 +353,7 @@
         </div>
         <div class="footer__copyright copyright">
           <b class="copyright__text">Разработано</b>
-          <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">
+          <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive" aria-label="HTML Academy">
             <svg class="copyright__logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="27" height="35" viewBox="0 0 26.943 34.09" fill="#d22856" enable-background="new 0 0 26.943 34.09" xml:space="preserve">
               <use xlink:href="#ha-icon"></use>
             </svg>

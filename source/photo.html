@@ -6,7 +6,6 @@
     <title>Pink Фото-блог</title>
     <link rel="stylesheet" type="text/css" href="css/style-min.css">
     <link rel="preload" href="fonts/opensansbold.woff2" as="font">
-    <link rel="preload" href="fonts/opensansbold.woff2" as="font">
     <link rel="preload" href="fonts/opensans.woff2" as="font">
     <link rel="preload" href="fonts/opensanslight.woff2" as="font">
   </head>
@@ -52,7 +51,7 @@
     <header class="page-header">
       <div class="page-header__wrapper">
         <div class="page-header__container">
-          <a class="page-header__logo" href="index.html">
+          <a class="page-header__logo" href="index.html" aria-label="Логотип, переход на главную">
             <svg class="page-header__logo-img" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="146.3px" height="40.375px" viewBox="0 0 146.3 40.375" enable-background="new 0 0 146.3 40.375" xml:space="preserve">
               <g>
                 <path class="page-header__logo-letter" fill="#ffffff" d="M71.874,18.661c0-0.708,0.58-1.288,1.256-1.288h7.18c5.087,0,8.436,2.704,8.436,7.146v0.063 c0,4.86-4.057,7.373-8.854,7.373h-5.475v6.825c0,0.708-0.58,1.287-1.289,1.287c-0.676,0-1.256-0.58-1.256-1.287L71.874,18.661 L71.874,18.661z M79.988,29.641c3.734,0,6.182-1.996,6.182-4.959v-0.062c0-3.221-2.414-4.894-6.053-4.894h-5.699v9.917h5.57V29.641 z"/>
@@ -84,7 +83,7 @@
               </g>
             </svg>
           </a>
-          <button class="page-header__toggle" type="button">
+          <button class="page-header__toggle" type="button" aria-label="Закрыть">
             <svg class="page-header__toggle-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="23.867px" height="23.867px" viewBox="0 0 23.867 23.867" fill="#d22856" enable-background="new 0 0 23.867 23.867" xml:space="preserve">
               <use xlink:href="#close-toggle"></use>
             </svg>
@@ -93,16 +92,16 @@
         <nav class="page-header__nav main-nav">
           <ul class="main-nav__list">
             <li class="main-nav__item">
-              <a class="main-nav__link" href="index.html">Главная</a>
+              <a class="main-nav__link" href="index.html" aria-label="Главная">Главная</a>
             </li>
             <li class="main-nav__item">
-              <a class="main-nav__link main-nav__link--active">Фотографии</a>
+              <a class="main-nav__link main-nav__link--active" aria-label="Фотографии">Фотографии</a>
             </li>
             <li class="main-nav__item">
-              <a class="main-nav__link" href="form.html">Конкурс</a>
+              <a class="main-nav__link" href="form.html" aria-label="Участие в конкурсе">Конкурс</a>
             </li>
             <li class="main-nav__item">
-              <a class="main-nav__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
+              <a class="main-nav__link" href="https://htmlacademy.ru/intensive/adaptive" aria-label="HTML Academy">HTML Academy</a>
             </li>
           </ul>
         </nav>
@@ -260,7 +259,7 @@
           Выкладывайте все, что накопилось в телефоне!
         </p>
         <div class="share__wrapper">
-          <form class="share__buttons">
+          <form class="share__buttons" method="post">
 
             <picture>
               <source type="image/webp" media="(min-width: 1200px)" srcset="img/photo-road-desktop@1x.webp 1x, img/photo-road-desktop@x2.webp 2x">
@@ -274,40 +273,40 @@
             <div class="share__container">
               <ul class="share__list">
                 <li class="share__item share__item--crop">
-                  <svg class="share__icon share__icon--crop share__icon--active" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="48px" height="48px" viewBox="0 0 48 48" enable-background="new 0 0 48 48" xml:space="preserve">
+                  <svg class="share__icon share__icon--crop share__icon--active" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="48px" height="48px" viewBox="0 0 48 48" enable-background="new 0 0 48 48" xml:space="preserve" tabindex="0" aria-label="Увеличение">
                     <use xlink:href="#crop-icon"></use>
                   </svg>
                   <div class="share__slider share__slider--active">
                     <div class="share__slider-line"></div>
                     <div class="share__slider-handle">
-                      <svg class="share__slider-icon share__slider-icon--crop" width="14" height="14">
+                      <svg class="share__slider-icon share__slider-icon--crop" width="14" height="14" tabindex="0" aria-label="Ползунок">
                         <use xlink:href="#slider-icon"></use>
                       </svg>
                     </div>
                   </div>
                 </li>
                 <li class="share__item share__item--fill">
-                  <svg class="share__icon share__icon--fill" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="48px" height="48px" viewBox="0 0 48 48" enable-background="new 0 0 48 48" xml:space="preserve">
+                  <svg class="share__icon share__icon--fill" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="48px" height="48px" viewBox="0 0 48 48" enable-background="new 0 0 48 48" xml:space="preserve" tabindex="0" aria-label="Заливка">
                     <use xlink:href="#fill-icon"></use>
                   </svg>
                   <div class="share__slider">
                     <div class="share__slider-line"></div>
                     <div class="share__slider-handle">
-                      <svg class="share__slider-icon share__slider-icon--fill" width="14" height="14">
+                      <svg class="share__slider-icon share__slider-icon--fill" width="14" height="14" tabindex="0" aria-label="Ползунок">
                         <use xlink:href="#slider-icon"></use>
                       </svg>
                     </div>
                   </div>
                 </li>
                 <li class="share__item share__item--contrast">
-                  <svg class="share__icon share__icon--contrast" version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="31.92px" height="31.92px" viewBox="-35.422 -7.96 31.92 31.92" enable-background="new -35.422 -7.96 31.92 31.92" xml:space="preserve">
+                  <svg class="share__icon share__icon--contrast" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="31.92px" height="31.92px" viewBox="-35.422 -7.96 31.92 31.92" enable-background="new -35.422 -7.96 31.92 31.92" xml:space="preserve" tabindex="0" aria-label="Контрастность">
                     <path d="M-19.462-3.96c6.595,0,11.96,5.365,11.96,11.96s-5.365,11.96-11.96,11.96S-31.422,14.595-31.422,8 S-26.057-3.96-19.462-3.96 M-19.462-7.96c-8.814,0-15.96,7.145-15.96,15.96c0,8.813,7.146,15.96,15.96,15.96S-3.502,16.813-3.502,8 C-3.502-0.815-10.648-7.96-19.462-7.96L-19.462-7.96z"/>
                     <path d="M-19.462,16.331c4.706,0,8.52-3.813,8.52-8.52c0-4.705-3.813-8.519-8.52-8.519"/>
                   </svg>
                   <div class="share__slider">
                     <div class="share__slider-line"></div>
                     <div class="share__slider-handle">
-                      <svg class="share__slider-icon share__slider-icon--contrast" width="14" height="14">
+                      <svg class="share__slider-icon share__slider-icon--contrast" width="14" height="14" tabindex="0" aria-label="Ползунок">
                         <use xlink:href="#slider-icon"></use>
                       </svg>
                     </div>
@@ -315,8 +314,8 @@
                 </li>
               </ul>
               <div class="share__button-container">
-                <button class="share__button share__button--post button"  type="submit">Запостить</button>
-                <button class="share__button share__button--cancel button" type="reset">Отмена</button>
+                <button class="share__button share__button--post button"  type="submit" aria-label="Запостите">Запостить</button>
+                <button class="share__button share__button--cancel button" type="reset" aria-label="Отмена">Отмена</button>
               </div>
             </div>
           </form>
@@ -326,7 +325,7 @@
 
     <footer class="footer">
       <div class="footer__wrapper">
-        <a class="footer__logo" href="index.html">
+        <a class="footer__logo" href="index.html" aria-label="Логотип, переход на главную">
           <svg class="footer__logo-img" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="146.3px" height="40.375px" viewBox="0 0 146.3 40.375" enable-background="new 0 0 146.3 40.375" xml:space="preserve">
             <g>
               <path class="footer__logo-letter" fill="#000000" d="M71.874,18.661c0-0.708,0.58-1.288,1.256-1.288h7.18c5.087,0,8.436,2.704,8.436,7.146v0.063 c0,4.86-4.057,7.373-8.854,7.373h-5.475v6.825c0,0.708-0.58,1.287-1.289,1.287c-0.676,0-1.256-0.58-1.256-1.287L71.874,18.661 L71.874,18.661z M79.988,29.641c3.734,0,6.182-1.996,6.182-4.959v-0.062c0-3.221-2.414-4.894-6.053-4.894h-5.699v9.917h5.57V29.641 z"/>
@@ -361,21 +360,21 @@
         <div class="footer__social social">
         <ul class="social__list">
           <li class="social__item">
-            <a class="social__link social__link--twitter" href="#">
+            <a class="social__link social__link--twitter" href="http://twitter.com" aria-label="Twitter">
               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="17.5px" height="14.663px" viewBox="0 0 17.5 14.663" fill="#d22856" enable-background="new 0 0 17.5 14.663" xml:space="preserve">
                 <use xlink:href="#twitter-icon"></use>
               </svg>
             </a>
           </li>
           <li class="social__item">
-            <a class="social__link social__link--facebook" href="#">
+            <a class="social__link social__link--facebook" href="http://facebook.com" aria-label="Facebook">
               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="8.673px" height="18.944px" viewBox="0 0 8.673 18.944" fill="#d22856" enable-background="new 0 0 8.673 18.944" xml:space="preserve">
                 <use xlink:href="#fb-icon"></use>
               </svg>
             </a>
           </li>
           <li class="social__item">
-            <a class="social__link social__link--youtube" href="#">
+            <a class="social__link social__link--youtube" href="http://youtube.com" aria-label="Youtube">
               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="14.64px" height="13.96px" viewBox="0 0 14.64 13.96" fill="#d22856" enable-background="new 0 0 14.64 13.96" xml:space="preserve">
                 <use xlink:href="#yt-icon"></use>
               </svg>
@@ -385,7 +384,7 @@
         </div>
         <div class="footer__copyright copyright">
           <b class="copyright__text">Разработано</b>
-          <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">
+          <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive" aria-label="HTML Academy">
             <svg class="copyright__logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="27" height="35" viewBox="0 0 26.943 34.09" fill="#d22856" enable-background="new 0 0 26.943 34.09" xml:space="preserve">
               <use xlink:href="#ha-icon"></use>
             </svg>
